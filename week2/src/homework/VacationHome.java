@@ -48,6 +48,7 @@ public class VacationHome {
         }
         else if (weeksBooked >=3) {
             double total3 = ((weeksBooked * pricePerWeek) - (pricePerWeek * discountWeek3) - (pricePerWeek * discountWeek2 * (weeksBooked - 2)) + (persons * touristTax * weeksBooked)) * MUNICIPAL_TAX;
+           // teBetalen += this.prijsPerWeek - (prijsPerWeek * kortingspercentage2 / 100) + (this.prijsPerWeek - (prijsPerWeek * kortingspercentage3 / 100));
             System.out.println("You have booked the vacation home for " + weeksBooked + " the total amount to pay is " + total3);
         } else
            // double total1 = (pricePerWeek + persons * touristTax * weeksBooked) * MUNICIPAL_TAX;
