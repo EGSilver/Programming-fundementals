@@ -33,7 +33,7 @@ public class Test {
         System.out.println("Plaats van Grootste getal");
         System.out.println();
         //System.out.println(a.grootsteGetalPlaats());
-        a.grootsteGetalPlaats();
+        //a.grootsteGetalPlaats();
         System.out.println();
         a.print();
         System.out.println("VergelijkArrays");
@@ -41,6 +41,7 @@ public class Test {
         a.vergelijkArrays();
         System.out.println();
         System.out.println("BedragBriefjes");
-        a.muntenEnBriefjes();
+        //a.muntenEnBriefjes();
+        a.print();
     }
 }
